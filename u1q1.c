@@ -14,14 +14,13 @@ int main(){
 	}
 	else if(pid1 == 0){
 		printf("\nInside child process with pid %d",(int)pid1);
-		printf("\nChild of child to do exec\n");
 		char* args[] = {"touch","abc.txt",NULL};
 		execvp("/bin/touch",args);
 	}
 	else{
 		//parent process
 		wait(NULL);
-		printf("\nWaited for the child to finish inside parent\n");
+		printf("\nWaited for the child to finish\n");
 		char* args[] = {"ls","-1",NULL};
 		execvp("/bin/ls",args);
 	}
