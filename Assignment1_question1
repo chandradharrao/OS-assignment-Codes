@@ -1,4 +1,5 @@
-/*file named "abc.txt"[Hint: shell command “touch filename” creates a new file]. Parent using
+/*1. Write a program to create a child process which calls one of the exec functions to create a
+file named "abc.txt"[Hint: shell command “touch filename” creates a new file]. Parent using
 one of the exec calls must execute the command "ls". Make the parent wait for the child to
 terminate and then execute "ls". Do not use "system" function*/
 
