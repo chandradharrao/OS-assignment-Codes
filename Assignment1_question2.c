@@ -1,6 +1,8 @@
-/*Write a program where in the child process
+/*
+Write a program where in the child process
 initiates a new program which finds the sum of
-n numbers. */
+n numbers. 
+*/
 
 #include<stdio.h>
 #include<stdlib.h>
